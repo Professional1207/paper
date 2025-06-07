@@ -152,3 +152,68 @@ Supporting multiple chunks?
 Integrating into Unreal Engine or Unity?
 Let me know and I’ll provide that code too.
 */
+
+
+
+
+
+
+For Command & Conquer: Generals (and its expansion Zero Hour), there's no in-game "cheat code" system like in Age of Empires. Instead, players typically manipulate files or use external tools. Here's how you can boost your money, resources, or gameplay:
+
+🛠️ 1. Edit Skirmish Files
+You can manually edit your starting cash in skirmish mode:
+
+Open the file Skirmish (not SkirmishStats) in your …\Generals Zero Hour\Data\INI folder.
+
+Find the StartingCash entry and set any amount you want before launching the skirmish 
+reddit.com
++15
+gamespot.com
++15
+cheathappens.com
++15
+.
+
+This applies only to skirmish/LAN/internet matches—not campaigns.
+
+You can also unlock medals by editing SkirmishStats.ini, setting values like:
+
+yaml
+Copy
+Edit
+
+
+
+BestWinStreak=10000
+Wins=10000
+Honors=178682
+...
+``` :contentReference[oaicite:7]{index=7}
+
+---
+
+## 💻 2. External Trainers & Tools
+:contentReference[oaicite:8]{index=8}
+
+- :contentReference[oaicite:9]{index=9} :contentReference[oaicite:10]{index=10}.
+- :contentReference[oaicite:11]{index=11} :contentReference[oaicite:12]{index=12}.
+- :contentReference[oaicite:13]{index=13} :contentReference[oaicite:14]{index=14}.
+
+---
+
+## ⚠️ Important Notes
+- All these methods work **only in skirmish/LAN**, not official campaigns or multiplayer online.
+- Use caution when downloading external tools—stick to trusted sources to avoid malware.
+- Editing files or using cheats might disable achievements or affect game stability.
+
+---
+
+### ✅ TL;DR
+| Method            | What it does                          | Works in |
+|------------------|---------------------------------------|----------|
+| Edit `StartingCash` | Custom starting money              | Skirmish |
+| Edit `SkirmishStats.ini` | Unlock medals/honors        | Skirmish |
+| WeMod / Trainers / PLITCH | Unlimited money, resources, instant builds | Skirmish |
+
+Let me know if you’d like step-by-step help editing those files or getting set up with a tool!
+::contentReference[oaicite:15]{index=15}
